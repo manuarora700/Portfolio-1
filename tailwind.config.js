@@ -5,6 +5,10 @@ module.exports = {
   darkMode: "class", // or 'media' or 'class'
   theme: {
     extend: {
+      backgroundImage: {
+        darkImage: "Logojeanwhite.png",
+        lightImage: "Logojuedicopy1.png",
+      },
       transitionDuration: {
         0: "0ms",
         2000: "2000ms",
@@ -13,7 +17,7 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: { backgroundImage: ['dark']},
     display: ["responsive", "group-hover", "group-focus"],
   },
 
