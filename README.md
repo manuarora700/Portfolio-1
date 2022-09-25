@@ -1,5 +1,5 @@
 ## Jean-Francois Leblanc 💯
-# Tech Stack
+# Tech Stack Used in Portfolio
 
 The website is built in my favourite Tech Stack and deployed on [Vercel](https://vercel.com)
 
